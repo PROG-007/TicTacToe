@@ -15,6 +15,7 @@ while True:
             print("Invalid Choice. Enter Again.")
         os.system("PAUSE")
     if quit:
+        os.system("PAUSE")
         break
     board=[[" "]*3 for i in range(3)]
     rows="ABC"
